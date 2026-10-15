@@ -5,6 +5,7 @@ import { TopMonitoring } from './components/TopMonitoring';
 import { VisualizerCard } from './components/VisualizerCard';
 import { SensorCard } from './components/SensorCard';
 import { AnalyticsSection } from './components/AnalyticsSection';
+import { YogaSection } from './components/YogaSection';
 import { SettingsModal } from './components/SettingsModal';
 import { FeedTableModal } from './components/FeedTableModal';
 import { WifiIcon, ShieldCheckIcon } from './components/Icons';
@@ -97,7 +98,10 @@ export function App() {
           </div>
         </section>
 
-        {/* 4. Analytics & Risk Awareness Section */}
+        {/* 4. Ergonomic Yoga & Posture Recovery */}
+        <YogaSection />
+
+        {/* 5. Analytics & Risk Awareness Section */}
         <AnalyticsSection feeds={feeds} />
       </div>
 
